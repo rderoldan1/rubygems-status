@@ -1,3 +1,4 @@
+# in development.rb
 RubygemsStatus::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 

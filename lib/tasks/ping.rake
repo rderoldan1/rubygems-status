@@ -8,11 +8,12 @@ namespace :ping do
 
   task :forever => :environment do
     pw = PingWorker.new
-    while true
-      pw.update
-      sleep 60
+    loop do
+        pw.update
+        sleep 60
     end
   end
+
 end
 
 

@@ -5,7 +5,9 @@ gem 'rails', '3.1.11'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-# gem 'sqlite3'
+
+gem 'daemons'
+gem 'daemons-rails'
 
 gem 'json'
 gem 'newrelic_api'

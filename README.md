@@ -21,6 +21,15 @@ To start rails application:
 
     rails server
 
-To start worker:
+To start worker in a background job:
 
-    rake ping:forever
+    1. Run not daemonized (terminal blocking)
+        rake daemon:pinger
+
+    2. Run as a daemon
+         rake daemon:pinger:start
+
+         Check if is runing
+
+         rake daemon:pinger:status
+
